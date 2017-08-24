@@ -347,13 +347,13 @@ p {
 	margin-top: 40px;
 	margin-left: 90px;
 	clear: both;
-	border: 1px solid blue;
+	
 }
 
 .socialmedia {
 
 	background-color: white;
-	border: solid 1px blue;
+	
 	padding: 20px;
 	max-width: 270px;
 	display: inline-block;
@@ -382,22 +382,20 @@ body{ height:700px;
 
 }
 
-div {
-
-	
-
-}
 
 #DG{
+	padding-left: 50px;
 	height: 200px;
 	width: 200px;
 
 }
 
-#socialmedia{
-
-	height: 500px;
+.socialmedia{
 	position: absolute;
+	top:180px;
+	left:550px;
+	margin-bottom:20px;
+	height:140px;
 
 }
 
