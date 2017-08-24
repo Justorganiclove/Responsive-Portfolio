@@ -8,12 +8,7 @@ body {
 	
 }
 
-section {
-	background: white;
-	top: 20px;
-	height: 80px;
-	width: 100%;
-}
+
 
 h1 {
 	width: 30%;
@@ -81,30 +76,14 @@ a:active { font-color:red;
 
 }
 
-p { 
-  color: black;
-  background-color: white;
-  margin-top: 0;
-  padding-left: 0px;
 
-  font-size: 18px;
-  line-height: 150%;
-  width: 65%;
-  position:relative;
-  top:-200px;
-  left: 190px;
-  padding-right: 20px;
-
-
-}
 
 div {
-	 width: 100%;
+	
 	 background-color: white;
-	 position: relative;
-	 padding: 20px;
-	 top: -270px;
-	 left: 780px;
+	 height: 25%;
+	 clear: both;
+
 	
 }
 
@@ -112,8 +91,9 @@ footer {
    position:fixed;
    left:0px;
    bottom:0px;
-   padding: 10px;
-   height:10px;
+   padding-top: 10px;
+   padding-bottom: 30px;
+   height:20px;
    width:100%;
    background: #FFA80C;	
    color: black;
@@ -142,16 +122,19 @@ label {
 	color: black	;
 }
 
-img { 
-	padding-left: 20px;
-	height: 180px;
-	width: 200px;
-
- 
- }
 
 ul {
 	align-content: center;
+}
+
+p {
+	position:relative;
+	top: 0px;
+	left: 20px;
+	width: 100%;
+	line-height: 160%;
+	margin-right:20px;
+
 }
 
 .whitebar{
@@ -167,7 +150,8 @@ ul {
 		border-right: 0px;
 	    border-left: 0px;
 		border-bottom-width: 3px;
-		border-bottom-color: #fffb00; 
+		border-bottom-color: #fffb00;
+		clear:both; 
 }
 .myname {
 	color: white	;
@@ -197,12 +181,12 @@ ul {
 }
 
 #DG { 
-
-    width: 160px;
-    height: 200px;
-    padding:10px;
+   
+   float:left;
+    width: 30%;
+    height: 60%;
+    margin: 0;
     padding-left: 20px;
-    margin:0;
 
 }
 
@@ -243,17 +227,13 @@ ul {
 
 }
 
-.socialmedia {
-	width: 100%;
 
-    height:100%;
-    top: -500px;
 
 }
 .socialmediacontact {
 	width: 25%;
     height:10%;
-    top: -680px;
+ 
     
    
 }
@@ -334,16 +314,6 @@ ul {
 
 }
 
-#box1{
-	margin-top: 40px;
-	margin-left: 120px;
-	width: 43%;
-	height: 300px;
-	padding-top: 10px;
-	padding-left: 0;
-	padding-bottom: 30px;
-	margin-right: 0px;
-}
 
 .image {
 	float: left;
@@ -361,6 +331,83 @@ ul {
 	position: relative;
 	top: -20px;
 }
+
+#container{
+	background-color: white;
+	width:700px;
+	clear:both;
+	
+}
+#box1{
+	width:45%;
+	background-color: white;
+	padding-left: 10px;
+	padding-right: 50px;
+	height: 300px;
+	margin-top: 40px;
+	margin-left: 90px;
+	clear: both;
+	border: 1px solid blue;
+}
+
+.socialmedia {
+
+	background-color: white;
+	border: solid 1px blue;
+	padding: 20px;
+	max-width: 270px;
+	display: inline-block;
+	position: absolute;
+	top:143px;
+	left: 700px;
+
+
+}
+
+@media handheld, screen and (max-width: 980px){
+
+p {background: white;
+	width:439px;
+	top:20px;
+	padding:20px;
+	left:-10px;
+	text-align: left;
+	height:170px;
+	clear: both;
+	margin-bottom: 20px;
+
+}
+
+body{ height:700px; 
+
+}
+
+div {
+
+	
+
+}
+
+#DG{
+	height: 200px;
+	width: 200px;
+
+}
+
+#socialmedia{
+
+	height: 500px;
+	position: absolute;
+
+}
+
+
+
+/*
+@media handheld, screen and (max-width: 768px)
+
+@media handheld, screen and (max-width: 640px)*/
+
         
 
 
