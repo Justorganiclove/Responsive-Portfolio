@@ -1,7 +1,7 @@
 # Homework 2 - Responsive Portfolio
 
 This is an upgrade from the basic portfolio from last week. I changed the look, added more color and made it responsive and mobile ready.
-s
+
 ## Getting Started
 
 Click the link and surf away.
