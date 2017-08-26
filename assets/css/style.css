@@ -77,8 +77,6 @@ a:active { font-color:red;
 
 div {
 	 background-color: white;
-	 clear: both;
-
 	
 }
 
@@ -338,7 +336,7 @@ img {
 }
 
 .socialmedia {
-	background-color: red;
+	background-color: white;
 	width:270px;
 	padding: 20px;
 	display: inline-block;
@@ -501,11 +499,12 @@ body{ height:100%;
 .socialmediacontact{
 	position: absolute;
 	top:500px;
-	left:90px;
-	max-width:532px;
-	height:165px;
+	left:140px;
+	width:532px;
+	height:130px;
 	padding-bottom: 40px;
 	margin-bottom:50px;
+	background-color: white;
 
 }
 
@@ -531,8 +530,8 @@ body{ height:100%;
 }
 
 .minisocial{ 
-	width:13%;
-	height:13%;
+	width:15%;
+	height:15%;
 }
 
 textarea { height:100px; }
